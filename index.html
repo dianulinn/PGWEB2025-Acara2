@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kabupaten Sidoarjo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#deskripsi">Deskripsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#penduduk">Jumlah Penduduk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#kecamatan">Kecamatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#website">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#galeri">Galeri</a>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-2">
+        <!-- title -->
+        <div class="alert alert-primary" role="alert">
+            Website resmi Kabupaten Sidoarjo
+        </div>
+
+        <!-- description -->
+        <div class="card" id="deskripsi">
+            <div class="card-header">
+                Deskripsi
+            </div>
+            <div class="card-body">
+                <p class="card-text">Kabupaten Sidoarjo (Bahasa Jawa: Hanacaraka: ꦱꦶꦢꦲꦂꦗ) merupakan salah satu daerah
+                    penyangga utama Kota Surabaya yang terletak di Provinsi Jawa Timur. Secara geografis, wilayah ini
+                    berada di kawasan dataran rendah dengan ketinggian rata-rata 3–25 meter di atas permukaan laut,
+                    sehingga sebagian besar lahannya dimanfaatkan untuk permukiman, pertanian, serta industri. Sidoarjo
+                    memiliki luas wilayah sekitar 634,38 km² yang terbagi dalam 18 kecamatan dan dikenal sebagai bagian
+                    dari kawasan metropolitan Gerbangkertosusila
+                    (Gresik–Bangkalan–Mojokerto–Surabaya–Sidoarjo–Lamongan).
+                </p>
+                <p class="card-text">
+                    Dari sisi ekonomi, Sidoarjo terkenal dengan sektor perikanan dan hasil olahan makanan laut, terutama
+                    produk udang dan bandeng, yang menjadikannya dijuluki sebagai “Kota Udang”. Selain itu, pertumbuhan
+                    industri manufaktur dan perdagangan juga sangat pesat karena letaknya yang strategis di jalur
+                    Surabaya–Malang dan dekat dengan Bandar Udara Internasional Juanda. Kondisi ini menjadikan Sidoarjo
+                    sebagai daerah yang berkembang pesat dengan tingkat urbanisasi tinggi.
+                </p>
+                <p class="card-text">
+                    Dari aspek sosial dan budaya, masyarakat Sidoarjo memiliki tradisi khas Jawa Timur dengan pengaruh
+                    budaya pesisir, serta dikenal dengan berbagai kuliner seperti lontong kupang, bandeng asap, dan
+                    kerupuk udang. Di sisi lain, wilayah ini juga dikenal secara nasional akibat adanya fenomena luapan
+                    lumpur Lapindo sejak 2006 yang berdampak besar terhadap lingkungan dan sosial ekonomi setempat.
+                    Hingga kini, Sidoarjo terus berbenah dengan penguatan sektor industri kreatif, pariwisata, dan jasa
+                    untuk mendukung pembangunan berkelanjutan.
+                </p>
+            </div>
+        </div>
+
+        <!-- population -->
+        <div class="card mt-3" id="penduduk">
+            <div class="card-header">
+                Penduduk
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-bordered">
+                    <tr>
+                        <th>No</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Laki-laki</td>
+                        <td>1.000.067 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Perempuan</td>
+                        <td>996.758 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total</td>
+                        <td>1.996.825 Jiwa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- subdistrict -->
+        <div class="card mt-3" id="kecamatan">
+            <div class="card-header">
+                Kecamatan
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li>Balongbendo</li>
+                    <li>Buduran</li>
+                    <li>Candi</li>
+                    <li>Gedangan</li>
+                    <li>Jabon</li>
+                    <li>Krembung</li>
+                    <li>Krian</li>
+                    <li>Prambon</li>
+                    <li>Porong</li>
+                    <li>Sedati</li>
+                    <li>Sidoarjo</li>
+                    <li>Sukodono</li>
+                    <li>Taman</li>
+                    <li>Tanggulangin</li>
+                    <li>Tarik</li>
+                    <li>Tulangan</li>
+                    <li>Waru</li>
+                    <li>Wonoayu</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card mt-3" id="website">
+            <div class="card-header">
+                Website
+            </div>
+            <div class="card-body">
+                <a href="https://www.sidoarjokab.go.id/" target="_blank" title="Klik untuk membuka website">
+                    Website Resmi Kabupaten Sidoarjo
+                </a>
+            </div>
+        </div>
+
+        <div class="card mt-3" id="galeri">
+            <div class="card-header">
+                Galeri
+            </div>
+            <div class="card-body">
+                <!-- Image -->
+                <img src="Sidoarjo.jpg" alt="" title="Alun-alun Sidoarjo" width="100%">
+                <br><br>
+                <!-- Video -->
+                <iframe width="500px" height="300px" src="https://www.youtube.com/embed/aidTtrucxZE"
+                    title="Lumpur Lapindo Sidoarjo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
